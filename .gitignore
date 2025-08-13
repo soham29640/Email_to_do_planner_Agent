@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.local
+*.env
+.env.*
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
+
+# Test coverage reports
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# PIP
+pip-log.txt
+
+# Unit test / coverage reports
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Pytype
+.pytype/
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# Local database / SQLite
+*.sqlite3
+
+# PyCharm
+.idea/
+
+# Other
+*.bak
+*.swp
+*.tmp
+
+# Google API credentials (make sure you don’t push secrets)
+credentials.json
+token.json
+
+# Optional: ignore models/output files
+/output/
+models/
